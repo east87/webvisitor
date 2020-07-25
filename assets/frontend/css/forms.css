@@ -1,0 +1,855 @@
+    :root {
+  --input-padding-x: .75rem;
+  --input-padding-y: .75rem;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #4d4d4d!important;
+}
+.filter-option-inner div{
+        font-weight: normal;
+}
+.bootstrap-select>.dropdown-toggle {
+    background-color: transparent!important;
+    border: none!important;
+    border-bottom: 1px solid #333!important;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    white-space: nowrap;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%!important;
+}
+.bnt-checkout{
+     color: #e2e2e2!important;
+     background: #5a6268;
+     border-color: #5a6268;
+}
+
+
+.container-image-height-flex {
+    /* color: #fff; */
+    background-image: url('../../images/checkin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: flex;
+}
+.card-checkout {
+    background-image: url('../../images/checkout.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: flex;
+}
+.card-signin {
+   padding: 0% 9% 5%!important;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background-size: cover;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+  padding-top: 1%;
+}
+
+.bnt-checkout, .form-signin .btn {
+    
+  font-size: 13px;
+  border-radius: 0rem;
+  letter-spacing: .1rem;
+  font-weight: bold!important;
+  padding: 1rem!important;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.form-label-group select {
+padding: 0px 4px 1px;
+}
+.form-label-group input,.form-label-group select {
+  background-color: transparent;
+  height: auto;
+  border: none;
+  border-bottom: 1px #495057 solid;
+  border-radius: 0;
+  width: 100%;
+}
+select:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.form-label-group>input,.form-label-group>select,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 0;
+  color: #495057;
+  border: none;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 4);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 4);
+  padding-bottom: calc(var(--input-padding-y) / 4);
+  font-size: 11px;
+  color: #495057;
+  font-weight: 600;
+}
+hr.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0);
+}
+.about-legal {
+    font-size: 13px;
+    text-align: justify;
+    padding: 1ch 2% 2%;
+}
+.bg-legal{
+ background-color: #4d4d4d!important;
+    height: 100%;
+}
+footer {
+    position: relative;
+    background-color: #333;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+@media screen and (min-width:1200px) {
+  footer {
+    /* position: fixed; */
+    background-color: #333;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+}
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT SIZE ]*/
+
+/*//////////////////////////////////////////////////////////////////
+[ PADDING ]*/
+.p-t-42 {padding-top: 42px;}
+.p-t-55 {padding-top: 55px;}
+.p-b-4 {padding-bottom: 4px;}
+.p-b-22 {padding-bottom: 22px;}
+.p-b-23 {padding-bottom: 23px;}
+.p-b-55 {padding-bottom: 55px;}
+.p-b-67 {/* padding-bottom: 67px; */}
+.p-l-15 {padding-left: 15px;}
+.p-l-50 {padding-left: 50px;}
+.p-r-15 {padding-right: 15px;}
+.p-r-50 {padding-right: 50px;}
+
+/*//////////////////////////////////////////////////////////////////
+[ MARGIN ]*/
+.m-b-20 {margin-bottom: 20px;}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ TEXT ]*/
+
+/*------------------------------------------------------------------
+[ Line height ]*/
+
+/* ------------------------------------ */
+.txt-center {text-align: center;}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ SIZE ]*/
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ BACKGROUND ]*/
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ PSEUDO ]*/
+
+/*------------------------------------------------------------------
+[ Hover ]*/
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ EFFECT ]*/
+
+/*------------------------------------------------------------------
+[ Opacity ]*/
+
+
+/*------------------------------------------------------------------
+[ Wrap Picture ]*/
+
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+
+/*------------------------------------------------------------------
+[  ]*/
+
+
+/*------------------------------------------------------------------
+[ Transition ]*/
+.trans-04 {
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ POSITION ]*/
+
+/*------------------------------------------------------------------
+[ Display ]*/
+
+.flex-w,
+.flex-c-m,
+.flex-sa-m,
+.flex-col-c-m {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+/*------------------------------------------------------------------
+[ Position ]*/
+
+/*------------------------------------------------------------------
+[ Float ]*/
+
+
+/*------------------------------------------------------------------
+[ Top Bottom Left Right ]*/
+
+
+/*------------------------------------------------------------------
+[ Flex ]*/
+/* ------------------------------------ */
+.flex-w {
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+
+
+/* ------------------------------------ */
+.flex-c-m {
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.flex-sa-m {
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+/* ------------------------------------ */
+
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+.flex-col-c-m {
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* ------------------------------------ */
+
+.flex-col-c-m {
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+
+/*------------------------------------------------------------------
+[ Absolute ]*/
+/*------------------------------------------------------------------
+Project:  ComingSoon
+Version:  
+Last change:  
+Assigned to:  Bach Le
+Primary use:  
+-------------------------------------------------------------------*/
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RS PLUGIN ]*/
+/*---------------------------------------------*/
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Form ]*/
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+/*---------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+
+
+/*==================================================================
+    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+==================================================================*/
+
+/*==================================================================
+[ Color ]*/
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ S-Text 0 - 15 ]*/
+.s1-txt1 {
+ 
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ M-Text 16 - 25 ]*/
+
+/*---------------------------------------------*/
+.m2-txt1 {font-size: 20px;color: #333;line-height: 1.2;}
+
+.m2-txt2 {
+ 
+  font-size: 16px;
+  color: #fff;
+  line-height: 1;
+}
+
+.m2-txt2 {
+ font-size: 16px;
+ font-weight: 400;
+ color: #333;
+ line-height: 1;
+}
+/*//////////////////////////////////////////////////////////////////
+[ L-Text >= 26 ]*/
+.l1-txt1 {
+  font-size: 34px;
+  color: #333;
+  line-height: 1.2;
+  /* text-transform: uppercase; */
+}
+
+.l1-txt2 {
+  /* font-family: Poppins-Light; */
+  font-size: 44px;
+  color: #fff;
+  line-height: 1;
+}
+
+
+/*==================================================================
+   SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
+==================================================================*/
+/*//////////////////////////////////////////////////////////////////
+[ Size ]*/
+.size1 {
+  height: 84vh;
+  width: 100%;
+  min-height: 100%;
+}
+
+.size2 {
+  min-width: 160px;
+  height: 50px;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Width ]*/
+.wsize1 {
+  background: #ffffffbf!important;
+  background: -webkit-linear-gradient(bottom, #4d4d4db3, #4d4d4d);
+  background: -o-linear-gradient(bottom, #aa076b, #61045f);
+  background: -moz-linear-gradient(bottom, #aa076b, #61045f);
+  background: linear-gradient(bottom, #aa076b, #61045f);
+  opacity: 1;
+  background-color: #f8dede;
+  padding: 6px;
+  max-width: 100%;
+  width: 60%;
+}
+
+.wsize2 {
+  /* width: 100px; */
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Height ]*/
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Background ]*/
+
+.bg-img1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Border ]*/
+.bor1 {
+  border: 2px solid rgba(255,255,255,0.35);
+}
+
+
+
+
+/*==================================================================
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+==================================================================*/
+.where1 {
+  margin: 20px 5px 0px 5px;
+}
+
+
+/*==================================================================
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+==================================================================*/
+
+/*---------------------------------------------*/
+.overlay1 {
+  position: relative;
+  z-index: 1;
+}
+.overlay1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #4d4d4d9e!important;
+  background: -webkit-linear-gradient(bottom, #4d4d4db3, #4d4d4d);
+  background: -o-linear-gradient(bottom, #aa076b, #61045f);
+  background: -moz-linear-gradient(bottom, #aa076b, #61045f);
+  background: linear-gradient(bottom, #aa076b, #61045f);
+  opacity: 0.8;
+}
+
+.overlay1::after {
+  /* content: ""; */
+  /* display: block; */
+  /* position: absolute; */
+  /* z-index: -1; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* top: 0; */
+  /* left: 0; */
+  background: rgba(0,0,0,0.2);
+}
+
+/*---------------------------------------------*/
+.how-btn {
+  padding: 0 20px;
+  background-color: #4272d7;
+  border-radius: 25px;
+}
+
+.how-btn:hover {
+  background-color: #fff;
+  color: #4272d7;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Pseudo ]*/
+
+/*------------------------------------------------------------------
+[ Focus ]*/
+
+
+/*------------------------------------------------------------------
+[ Hover ]*/
+
+/*---------------------------------------------*/
+
+
+
+
+
+
+
+/*==================================================================
+  RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
+==================================================================*/
+
+
+/*//////////////////////////////////////////////////////////////////
+[ XL ]*/
+@media (max-width: 1200px) {
+
+  /*---------------------------------------------*/
+
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ LG ]*/
+@media (max-width: 992px) {
+
+  /*---------------------------------------------*/
+
+
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ MD ]*/
+@media (max-width: 768px) {
+    
+    .container-image-height-flex {
+    /* color: #fff; */
+    background-image: url('../../images/checkinhp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: flex;
+}
+.card-checkout {
+    background-image: url('../../images/checkouthp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: flex;
+}
+    
+    .l1-txt1 {
+    font-size: 26px;
+    color: #333;
+    line-height: 1;
+    /* text-transform: uppercase; */
+}
+.l1-txt2 {
+  /* font-family: Poppins-Light; */
+  font-size: 22px;
+  color: #fff;
+  line-height: 1;
+}
+  /*---------------------------------------------*/
+  .respon1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    /* max-width: 340px; */
+    margin: 0 auto;
+  }
+
+  .respon2 {
+    /* display: none; */
+  }
+  .countup .timeel {
+   display: inline-table!important;
+    padding: 4px 1px 5px!important;
+    background: #151515;
+    margin: 0;
+    color: white;
+    min-width: 1.8rem!important;
+    margin-left: 2px!important;
+    border-radius: 2px 0 0 10px;
+}
+
+.cid-r7cx92Ejvt .counter-container .mb-5 {
+    padding-left: 13%!important;
+}
+.cid-r7cx92Ejvt .counter-container .mb-3 {
+    /* margin-bottom: 0.5rem; */
+    /* padding-left: 15%!important; */
+}
+.cid-r7cx92Ejvt .counter-container.mb-5 {
+    margin-bottom: 1rem!important;
+}
+.cid-r7cx92Ejvt {
+   // max-height: 50vh;
+}
+
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ SM ]*/
+@media (max-width: 576px) {
+.mb-5, .my-5 {
+    margin-bottom: 0.5rem!important;
+}
+.cid-r7cx92Ejvt .counter-container .mb-5 {
+    padding-left: 19%!important;
+}
+.cid-r7cx92Ejvt .counter-container .mb-3 {
+    /* margin-bottom: 0.5rem; */
+    margin-left: 13%!important;
+}
+ .countup .timeel {
+   display: inline-table!important;
+    padding: 4px 1px 5px!important;
+    background: #151515;
+    margin: 0;
+    color: white;
+    min-width: 1.8rem!important;
+    margin-left: 2px!important;
+    border-radius: 2px 0 0 10px;
+}
+  
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ SSM ]*/
+@media (max-width: 480px) {
+  /*---------------------------------------------*/
+
+}
+
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #333;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 7px 0 0 7px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 7px 7px 0;
+  margin-left: 0;
+  background: #fbc324;
+  color: #333;
+}
+
+.modal-header {
+    font-family: "Times New Roman", Times, serif;
+    display: -ms-flexbox;
+    display: inline-block!important;
+    border: none!important;
+}
+.modal-body {
+    font-family: "Times New Roman", Times, serif;
+    display: -ms-flexbox;
+    display: inline-block!important;
+}
+.cid-r7cx92Ejvt {
+/*    max-height:60vh;
+   overflow-y: scroll;*/
+  padding-top: 15px;
+  padding-bottom: 60px;
+  /* background-color: #ffffff; */
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.mb-5, .my-5{
+     margin-bottom: 1rem!important;
+}
+.mb-5 strong{
+     font-size: 14px;
+}
+.cid-r7cx92Ejvt .counter-container .mb-5  {
+    padding-left: 13%;
+}
+.cid-r7cx92Ejvt .counter-container .mb-3 {
+  /* margin-bottom: 0.5rem; */
+  padding-left: 0rem;
+}
+.cid-r7cx92Ejvt .counter-container li {
+    font-size: 12px;
+    /* padding-left: 0rem; */
+    position: relative;
+}
+.cid-r7cx92Ejvt .counter-container ol {
+    padding-left: 14px;
+}
+.cid-r7cx92Ejvt .counter-container .counter {
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  margin: 0 0 3px;
+  line-height: normal;
+  transition: all .2s;
+  /* width: 60px; */
+  /* height: 40px; */
+}
+.display-1 > .mbr-iconfont {
+  font-size: 6.8rem;
+}
+.display-2 > .mbr-iconfont {
+  font-size: 4.8rem;
+}
+.display-4 > .mbr-iconfont {
+  font-size: 1.6rem;
+}
+.display-5 > .mbr-iconfont {
+  font-size: 12px;
+}
+.display-7 > .mbr-iconfont {
+  font-size: 12px;
+}
+.display-5 {
+  font-size: 12px;
+}
+.display-7 {
+    font-size: 12px;
+  font-weight: 300;
+}

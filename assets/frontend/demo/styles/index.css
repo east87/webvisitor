@@ -1,0 +1,25 @@
+
+
+.pos-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.demo-img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.descrip {
+  font-size: 15px;
+  line-height: 0;
+  color: #D66A00;
+}
+
+.code-view {
+  width: 245px;
+  font-size: 14px;
+}
+
